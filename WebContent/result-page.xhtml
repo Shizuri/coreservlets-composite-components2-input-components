@@ -8,9 +8,15 @@
 </h:head>
 <h:body>
 
-<p><a href="http://www.coreservlets.com/JSF-Tutorial/jsf2/#Composite-Components-2">Exercises for Composite Components Part 2 - Input Components</a></p>
+Hello #{personController.firstName} #{personController.lastName}.<br/>
+Here is the data we have on you so far:
 
-<a href="exercise1.jsf">Exercise 1 to 4. All exercises in one.</a><br/>
+<ul>
+	<li>Country: #{personController.country}</li>
+	<li>City: #{personController.city}</li>
+	<li>Street Number: #{personController.streetNumber}</li>
+	<li>Postal Code: #{personController.postalCode}</li>
+</ul>
 
 
 </h:body>
